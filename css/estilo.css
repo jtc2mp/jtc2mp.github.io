@@ -1,0 +1,70 @@
+#contenidos
+{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+body
+{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background-color: rgb(0,88,131);
+}
+
+h1
+{
+	font-size: 2em
+}
+
+h2
+{
+	font-size: 1.5em
+}
+
+p, h1, h2, ul
+{
+	font-family: "Comic Sans MS"
+}
+
+p
+{
+	text-align: center;
+	color: rgb(240,180,41);
+	font-size: 1em
+}
+
+h1, h2
+{
+	text-align: center;
+	color: rgb(244,121,32);
+}
+
+ul 
+{
+	margin: auto;
+	padding-top: auto;
+}
+
+li
+{
+	float: left;
+	list-style-type: none;
+	padding: 15px;
+	background: rgb(0,22,45);
+	margin: 33px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px aqua inset;
+}
+
+.ancho_menu_home{width: 900px}
+.ancho_menu_paginas{width: 970px}
+
+.menu:link{color: rgb(128,128,128);text-decoration: none;}
+.menu:visited{color: rgb(128,128,128);text-decoration: none;}
+.menu:hover{color: rgb(128,128,128);text-decoration: none; text-shadow: 0 0 8px white;}
+.menu:active{color: rgb(128,128,128);text-decoration: none;}
+
